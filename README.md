@@ -1,15 +1,6 @@
 #RogueWifi
 ![alt tag](http://i.imgur.com/1VlMf44.png)
 
-####### I am no longer maintaining this. I highly recommend using [vincenzogianfelice](https://github.com/vincenzogianfelice/RoguePortal) tool, he took my code and really went places with it. Anyhow, I will not respond to fixes for this anymore because I am tired of researching either PHP or iptables rules...
-
-This is my first contribution as I finally got the courage to start sharing my scripts with the community. I am not a programmer and as you can see, not an advanced script writer, but
-I put this out here to expand and improve it into something that I could never have done by myself!
- 
-I got tired of simple Wifi AP's that don’t act as one you'd find in a public free wifi. So I patched some bash, PHP and javascript together to create RougeWifi. This AP grants the user access after they have authenticated using 
-one of the 4 social media options. The first time they authenticate, I added a message saying "Authentication failed. incorrect username/password" as I noticed some 
-people would enter gibberish. The failed first auth increases likelihood that they will enter the correct credentials. 
-
 Once authenticated, both passwords ([first-attempt] and [second-attempt]) are dumped into "passwords.txt" along with the email/username and type of 
 authentication (Google, Facebook, Twitter and Linkedin) and the user is granted access to the internet. 
 
